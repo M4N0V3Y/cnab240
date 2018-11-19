@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{cb3c03cc-694e-4541-8881-374a1840e47b}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>WorkingCodes</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{D51BCBC9-82E9-4017-911E-C93873C4EA2B}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <ItemGroup>
+    <ClCompile Include="ClCabPgtSegmentoAThree.cpp" />
+    <ClCompile Include="ClCabPgtSegmentoBThree.cpp" />
+    <ClCompile Include="clCabPgtSegmentoCThree.cpp" />
+    <ClCompile Include="ClCabPgtSegmentoJ52Three.cpp" />
+    <ClCompile Include="ClCabPgtSegmentoJThree.cpp" />
+    <ClCompile Include="clCabPgtSegmentoN1Three.cpp" />
+    <ClCompile Include="clCabPgtSegmentoN2Three.cpp" />
+    <ClCompile Include="clCabPgtSegmentoN3Three.cpp" />
+    <ClCompile Include="clCabPgtSegmentoN4Three.cpp" />
+    <ClCompile Include="clCabPgtSegmentoN5Three.cpp" />
+    <ClCompile Include="clCabPgtSegmentoN6Three.cpp" />
+    <ClCompile Include="clCabPgtSegmentoN7Three.cpp" />
+    <ClCompile Include="clCabPgtSegmentoN8Three.cpp" />
+    <ClCompile Include="clCabPgtSegmentoNThree.cpp" />
+    <ClCompile Include="ClCabPgtSegmentoOThree.cpp" />
+    <ClCompile Include="clCabPgtSegmentoW1Three.cpp" />
+    <ClCompile Include="clCabPgtSegmentoWThree.cpp" />
+    <ClCompile Include="clCabPgtSegmentoZThree.cpp" />
+    <ClCompile Include="clCnabCobHeaderOne.cpp" />
+    <ClCompile Include="clCnabCobSegmentoP.cpp" />
+    <ClCompile Include="clCnabCobSegmentoQ.cpp" />
+    <ClCompile Include="clCnabCobSegmentoR.cpp" />
+    <ClCompile Include="clCnabCobSegmentoS.cpp" />
+    <ClCompile Include="clCnabCobSegmentoST1O2.cpp" />
+    <ClCompile Include="clCnabCobSegmentoST3.cpp" />
+    <ClCompile Include="clCnabCobSegmentoY.cpp" />
+    <ClCompile Include="clCnabCobSegmentoY04.cpp" />
+    <ClCompile Include="clCnabCobSegmentoY05.cpp" />
+    <ClCompile Include="clCnabCobSegmentoY50.cpp" />
+    <ClCompile Include="clCnabCobSegmentoY51.cpp" />
+    <ClCompile Include="clCnabCobSegmentoY52.cpp" />
+    <ClCompile Include="clCnabPgtHeaderOne.cpp" />
+    <ClCompile Include="clCnabPgtHeaderZero.cpp" />
+    <ClCompile Include="clCnabPgtraillerFive.cpp" />
+    <ClCompile Include="clCnabPgtraillerNine.cpp" />
+    <ClCompile Include="clUtils.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClCabPgtSegmentoAThree.h" />
+    <ClInclude Include="ClCabPgtSegmentoBThree.h" />
+    <ClInclude Include="clCabPgtSegmentoCThree.h" />
+    <ClInclude Include="ClCabPgtSegmentoJ52Three.h" />
+    <ClInclude Include="ClCabPgtSegmentoJThree.h" />
+    <ClInclude Include="clCabPgtSegmentoN1Three.h" />
+    <ClInclude Include="clCabPgtSegmentoN2Three.h" />
+    <ClInclude Include="clCabPgtSegmentoN3Three.h" />
+    <ClInclude Include="clCabPgtSegmentoN4Three.h" />
+    <ClInclude Include="clCabPgtSegmentoN5Three.h" />
+    <ClInclude Include="clCabPgtSegmentoN6Three.h" />
+    <ClInclude Include="clCabPgtSegmentoN7Three.h" />
+    <ClInclude Include="clCabPgtSegmentoN8Three.h" />
+    <ClInclude Include="clCabPgtSegmentoNThree.h" />
+    <ClInclude Include="ClCabPgtSegmentoOThree.h" />
+    <ClInclude Include="clCabPgtSegmentoW1Three.h" />
+    <ClInclude Include="clCabPgtSegmentoWThree.h" />
+    <ClInclude Include="clCabPgtSegmentoZThree.h" />
+    <ClInclude Include="clCnabCobHeaderOne.h" />
+    <ClInclude Include="clCnabCobSegmentoP.h" />
+    <ClInclude Include="clCnabCobSegmentoQ.h" />
+    <ClInclude Include="clCnabCobSegmentoR.h" />
+    <ClInclude Include="clCnabCobSegmentoS.h" />
+    <ClInclude Include="clCnabCobSegmentoST1O2.h" />
+    <ClInclude Include="clCnabCobSegmentoST3.h" />
+    <ClInclude Include="clCnabCobSegmentoY.h" />
+    <ClInclude Include="clCnabCobSegmentoY04.h" />
+    <ClInclude Include="clCnabCobSegmentoY05.h" />
+    <ClInclude Include="clCnabCobSegmentoY50.h" />
+    <ClInclude Include="clCnabCobSegmentoY51.h" />
+    <ClInclude Include="clCnabCobSegmentoY52.h" />
+    <ClInclude Include="clCnabPgtHeaderOne.h" />
+    <ClInclude Include="clCnabPgtHeaderZero.h" />
+    <ClInclude Include="clCnabPgtraillerFive.h" />
+    <ClInclude Include="clCnabPgtraillerNine.h" />
+    <ClInclude Include="clUtils.h" />
+    <ClInclude Include="ConstantDefAndEnum.h" />
+  </ItemGroup>
+  <ItemDefinitionGroup />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
